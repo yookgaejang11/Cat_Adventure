@@ -13,7 +13,7 @@ public class Falling_Trap : MonoBehaviour
     {
         if(isFalling)
         {
-            transform.position = new Vector2(0,transform.position.y - 0.015f);
+            transform.position = new Vector2(0,transform.position.y - 0.025f);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

@@ -3,8 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Rendering;
+using UnityEditor;
 public class PlayerMove : MonoBehaviour
 {
+    public GameObject Hideblock;
+    public float EnemyRayLength;
+    public GameManager manager;
+    public GameObject blindBlock;
+    public float rayLength;
     bool isSmear = false;
     public GameObject Sand_Trap;
     public float currentSpeed;
@@ -13,43 +19,45 @@ public class PlayerMove : MonoBehaviour
     public float Jump_power;
     Rigidbody2D rigid;
     Animator animator;
-    // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
     {
+        Time.timeScale = 1.0f;
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rigid = GetComponent<Rigidbody2D>();
-        
-        
+        manager = FindFirstObjectByType<GameManager>();// GameManager가 장면에 있으면 할당됩니다.
+        if (manager == null)
+        {
+            Debug.LogError("GameManager를 찾을 수 없습니다. 씬에 GameManager가 있는지 확인하세요.");
+        }
     }
     private void Update()
     {
-        if(isSmear)
+       
+        if (isSmear)
         {
             Jump_power = 0;
             MaxSpeed = 0;
             currentSpeed = 0;
             rigid.gravityScale = 0;
-            transform.position = new Vector2(transform.position.x,transform.position.y - 0.001f);
+            rigid.AddForce(new Vector2(0,-0.01f), ForceMode2D.Impulse);
         }
         currentSpeed = rigid.linearVelocityX; //현재 속도 계산
         //Player의 속도가 급격히 멈춤(normalized)
         if (Input.GetButtonUp("Horizontal"))
         {
-            rigid.linearVelocity = new Vector2(rigid.linearVelocityX * 0.5f, rigid.linearVelocityY);
+            rigid.linearVelocity = new Vector2(rigid.linearVelocityX * 0.2f, rigid.linearVelocityY);
+            CancelInvoke("StopPlayer");
+            Invoke("StopPlayer", 0.3f);
         }
         //Player Jump
-        if (Input.GetButton("Jump") && !animator.GetBool("isJump"))
-        {
-            rigid.AddForce(Vector2.up * Jump_power, ForceMode2D.Impulse);
-            animator.SetBool("isJump", true);
-        }
         if (Input.GetButtonDown("Jump") && !animator.GetBool("isJump"))
         {
-            Jump_power += 5;
             rigid.AddForce(Vector2.up * Jump_power, ForceMode2D.Impulse);
             animator.SetBool("isJump", true);
         }
+       
 
         //Player flip
         if (Input.GetButtonDown("Horizontal"))
@@ -68,6 +76,13 @@ public class PlayerMove : MonoBehaviour
         }
 
 
+    }
+    void StopPlayer()
+        {
+            // 일정 시간 후에 플레이어의 속도를 0으로 설정
+            if(Mathf.Abs(currentSpeed) > 0)
+            currentSpeed = 0;
+            rigid.linearVelocityX = currentSpeed;// x축 속도를 0으로 설정
     }
 
     // Update is called once per frame
@@ -88,16 +103,19 @@ public class PlayerMove : MonoBehaviour
         }
 
         //Landing platform
-        if (rigid.linearVelocity.y < 0)
+        if (rigid.linearVelocity.y <= 0)
         {
-            Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
+            Vector2 rayOrigin = new Vector2(rigid.position.x, rigid.position.y - 0.1f); // Ray 시작 위치를 조금 아래로 조정
+            rayLength = 1.0f;
 
-            RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("Platform"));
+            Debug.DrawRay(rigid.position, Vector3.down*rayLength, new Color(1, 0, 0));
+
+            RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, rayLength, LayerMask.GetMask("Platform","Wall"));
 
 
             if (rayHit.collider != null)
             {
-                if (rayHit.distance < 0.5f)
+                if (rayHit.distance < 1f)
                     animator.SetBool("isJump", false);
             }
         }
@@ -105,18 +123,85 @@ public class PlayerMove : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Falling_Trap")
+        if (collision.gameObject.name == "Sand_Trap")
         {
             isSmear = true;
-        }
-        if (collision.gameObject.tag == "Trap")
-        {
-            animator.SetBool("isDie", true);
         }
         if ((collision.gameObject.tag == "BushTrigger"))
         {
             Debug.Log("모래소환술");
+            blindBlock.gameObject.SetActive(false);
             Sand_Trap.gameObject.SetActive(true);
         }
+        if(collision.gameObject.tag=="Death_Point")
+        {
+            manager.Die();
+        }
+        if (collision.gameObject.tag == "Explosion")
+        {
+            manager.Die();
+        }
+        if(collision.gameObject.tag == "Enemy" )
+        {
+            if(rigid.linearVelocityY < 0 && transform.position.y > collision.transform.position.y)
+            {
+                OnAttck(collision.transform);
+
+            }
+            else
+            {
+                manager.Die();
+            }
+        }
+        if(collision.gameObject.tag == "Snail" )
+        {
+            if(rigid.linearVelocityY < 0 && transform.position.y > collision.transform.position.y)
+            {
+                OnAttckSnail(collision.transform);
+
+            }
+            else
+            {
+                manager.Die();
+            }
+        }
+        if (collision.gameObject.tag == "Spike_Turtle"||collision.gameObject.tag == "Trap")
+        {
+            manager.Die();
+
+        }
+        if (collision.gameObject.tag == "Hide_Block")
+        {
+            Hideblock.gameObject.SetActive(true);
+        }
     }
+
+    public void OnAttck(Transform enemy)
+    {
+        //point
+        rigid.AddForce(Vector3.up * 20f, ForceMode2D.Impulse);
+        if (enemy == null)
+        {
+            Debug.LogError("OnAttack에서 enemy가 null입니다.");
+            return;
+        }
+        //Enemy Die
+        Enemy_Move enemyMove = enemy.GetComponent<Enemy_Move>();
+        enemyMove.OnDamaged();
+    }
+    public void OnAttckSnail(Transform snail)
+    {
+        //point
+        rigid.AddForce(Vector3.up * 20f, ForceMode2D.Impulse);
+        if (snail == null)
+        {
+            Debug.LogError("OnAttack에서 enemy가 null입니다.");
+            return;
+        }
+        //Enemy Die
+        Snail_Enemy snailMove = snail.GetComponent<Snail_Enemy>();
+        snailMove.OnDamaged();
+    }
+    
+    
 }

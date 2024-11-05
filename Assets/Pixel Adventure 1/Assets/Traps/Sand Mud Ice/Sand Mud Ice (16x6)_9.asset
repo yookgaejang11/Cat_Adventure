@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Sand Mud Ice (16x6)_9
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -7049460874815310564, guid: d436f9306d1867c44b4d0c5c013fcb7e, type: 3}
+  m_Sprite: {fileID: -7049460874815310564, guid: 937958108c78d1549a2219d993b6a2f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

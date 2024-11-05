@@ -8,6 +8,14 @@ TagManager:
   - Trap
   - Sand_Trap
   - BushTrigger
+  - Death_Point
+  - Explonsion
+  - Enemy
+  - Wall
+  - Snail
+  - Spike_Turtle
+  - Hide_Block
+  - Show_Trigger
   layers:
   - Default
   - TransparentFX
@@ -16,9 +24,9 @@ TagManager:
   - Water
   - UI
   - Platform
-  - 
-  - 
-  - 
+  - Player
+  - Wall
+  - Enemy
   - 
   - 
   - 
