@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Falling_Trap : MonoBehaviour
 {
-    bool isFalling = false;
+    public bool isFalling = false;
     Rigidbody2D rigid;
 
     private void Awake()

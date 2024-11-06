@@ -48,6 +48,7 @@ public class Snail_Enemy : MonoBehaviour
             }
         }
         animator.SetBool("isStep", true);
+        nextMove = 0;
     }
     private void FixedUpdate()
     {

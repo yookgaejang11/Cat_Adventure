@@ -16,6 +16,7 @@ TagManager:
   - Spike_Turtle
   - Hide_Block
   - Show_Trigger
+  - End_Point
   layers:
   - Default
   - TransparentFX

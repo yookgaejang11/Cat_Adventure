@@ -5,9 +5,13 @@ public class Hide_Block : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject HideBlock;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
+        {
+            Debug.Log("¥Í¿Ω" + HideBlock);
             HideBlock.SetActive(true);
+        }
+           
     }
 }

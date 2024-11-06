@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Enemy_Move : MonoBehaviour
 {
-    
+    public float RayLength;
     private Animator animator;
     Rigidbody2D rigid;
     public int nextMove;
@@ -10,6 +10,7 @@ public class Enemy_Move : MonoBehaviour
     public GameManager manager;
     private void Awake()
     {
+        RayLength = 0.3f;
         manager = FindFirstObjectByType<GameManager>();// GameManager가 장면에 있으면 할당됩니다.
         if (manager == null)
         {
@@ -27,7 +28,7 @@ public class Enemy_Move : MonoBehaviour
 
         //몬스터가 벽에 떨어지지 않는 방법, 저번에 ray를 쏴서 밑이 허공인지 체크
         //platform check
-        Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.3f, rigid.position.y);
+        Vector2 frontVec = new Vector2(rigid.position.x + nextMove * RayLength, rigid.position.y);
         Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
 
         RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1,
@@ -57,7 +58,7 @@ public class Enemy_Move : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if(collision.gameObject.tag == "Wall")
+        if(collision.gameObject.tag == "Wall" || collision.gameObject.tag == "Platform")
         {
             Debug.Log("벽 감지");
             nextMove *= (-1);
