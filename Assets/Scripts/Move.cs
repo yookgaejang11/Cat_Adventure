@@ -121,12 +121,14 @@ public class PlayerMove : MonoBehaviour
         }
 
     }
+        
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Sand_Trap")
+        if(collision.gameObject.tag == "Sand_Trap")
         {
             isSmear = true;
         }
+        
         if ((collision.gameObject.tag == "BushTrigger"))
         {
             Debug.Log("모래소환술");
