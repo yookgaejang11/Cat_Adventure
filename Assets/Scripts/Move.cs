@@ -19,9 +19,11 @@ public class PlayerMove : MonoBehaviour
     public float Jump_power;
     Rigidbody2D rigid;
     Animator animator;
-
+    public AudioSource JumpSource;
     private void Awake()
     {
+        JumpSource = GetComponent<AudioSource>();
+
         Time.timeScale = 1.0f;
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -56,6 +58,8 @@ public class PlayerMove : MonoBehaviour
         {
             rigid.AddForce(Vector2.up * Jump_power, ForceMode2D.Impulse);
             animator.SetBool("isJump", true);
+            JumpSource.Play();
+            
         }
        
 

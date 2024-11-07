@@ -11,7 +11,7 @@ public class Tuna_Move : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigid.AddForce(Vector2.up * speed, ForceMode2D.Impulse);
+        rigid.AddForce(new Vector2(-speed, speed), ForceMode2D.Impulse);
     }
 
 }

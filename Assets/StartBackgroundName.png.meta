@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 134f65f342d13404b979c6bcecd23318
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7016817260591766756
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_0
+  - first:
+      213: -8314404095226793504
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_1
+  - first:
+      213: 257872824202332762
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_2
+  - first:
+      213: -9134401030556937241
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_3
+  - first:
+      213: -3222308670460216098
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_4
+  - first:
+      213: 1959130637239473554
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_5
+  - first:
+      213: -7705964263417787811
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_6
+  - first:
+      213: -8954714199235945184
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_7
+  - first:
+      213: 975805794685672419
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_8
+  - first:
+      213: 8560673540268266747
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_9
+  - first:
+      213: -4855970990833664604
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_10
+  - first:
+      213: -6465520233474349914
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_11
+  - first:
+      213: -1247962938448200580
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_12
+  - first:
+      213: 165389436555116087
+    second: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 249
+        width: 194
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecd66f2f1eb06160800000000000000
+      internalID: 7016817260591766756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 250
+        width: 138
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e134f8e68d4d9c80800000000000000
+      internalID: -8314404095226793504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 250
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a8ec3a7f5249300800000000000000
+      internalID: 257872824202332762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 249
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e311b9a8a61c3180800000000000000
+      internalID: -9134401030556937241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 241
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcbe84365f0843d0800000000000000
+      internalID: -3222308670460216098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 136
+        width: 123
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2955e354fea303b10800000000000000
+      internalID: 1959130637239473554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 136
+        width: 53
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ac023945aee0590800000000000000
+      internalID: -7705964263417787811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 136
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d156141e67ab380800000000000000
+      internalID: -8954714199235945184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 136
+        width: 52
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebd1024332ca8d00800000000000000
+      internalID: 975805794685672419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 136
+        width: 43
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf496cd7a3f9dc670800000000000000
+      internalID: 8560673540268266747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 137
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adf1c3ac102c9cb0800000000000000
+      internalID: -4855970990833664604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 135
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a429ab7a9bd546a0800000000000000
+      internalID: -6465520233474349914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 136
+        width: 51
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c31f8c1585eaee0800000000000000
+      internalID: -1247962938448200580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 31
+        width: 466
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e3877f0d49b4200800000000000000
+      internalID: 165389436555116087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_0: 7016817260591766756
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_1: -8314404095226793504
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_10: -4855970990833664604
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_11: -6465520233474349914
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_12: -1247962938448200580
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_13: 165389436555116087
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_2: 257872824202332762
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_3: -9134401030556937241
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_4: -3222308670460216098
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_5: 1959130637239473554
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_6: -7705964263417787811
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_7: -8954714199235945184
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_8: 975805794685672419
+      DALL_E_2024-11-07_19.48.54_-_Text__Cat_Adventure__in_a_32-bit_fantasy_style__with_no_background._The_font_should_be_simpler__with_a_subtle_fantasy_vibe__using_a_modest_color_palet-removebg-preview_9: 8560673540268266747
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

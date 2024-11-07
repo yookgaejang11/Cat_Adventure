@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Enemy_Move : MonoBehaviour
 {
+    AudioSource EnemyDie;
     public float RayLength;
     private Animator animator;
     Rigidbody2D rigid;
@@ -52,6 +53,7 @@ public class Enemy_Move : MonoBehaviour
 
     public void OnDamaged()
     {
+        EnemyDie.Play();
         Destroy(gameObject);
     }
 

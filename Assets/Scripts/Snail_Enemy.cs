@@ -13,7 +13,7 @@ public class Snail_Enemy : MonoBehaviour
     public float rayLength = 1.0f; // Raycast 길이
     public LayerMask playerLayer; // 플레이어 레이어 마스크
     public float rayOffsetX = 0.1f; // Raycast의 X 오프셋
-
+    AudioSource SnailDie;
     private void Awake()
     {
         
@@ -47,6 +47,7 @@ public class Snail_Enemy : MonoBehaviour
                 Instantiate(explosionPrefab, currentPosition, currentRotation);
             }
         }
+        SnailDie.Play();
         animator.SetBool("isStep", true);
         nextMove = 0;
     }
